@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+LOGIN_URL = 'rango:login'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
